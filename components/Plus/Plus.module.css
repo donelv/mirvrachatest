@@ -1,0 +1,36 @@
+.plus {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: -5px;
+  left: -5px;
+  border-radius: 50%;
+  background-color: #1a6ea0;
+}
+.plus span {
+  display: block;
+  position: absolute;
+  background-color: #1a6ea0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 8px;
+  border: 1px solid white;
+}
+.plus span:nth-child(2) {
+  width: 8px;
+  height: 24px;
+  border: 1px solid white;
+}
+.plus span:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  background-color: #1a6ea0;
+  width: 10px;
+  height: 6px;
+}

@@ -1,0 +1,13 @@
+.card {
+  width: 578px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #068ca6;
+  box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px;
+  color: #223867;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
